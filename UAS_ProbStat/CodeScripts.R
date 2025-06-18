@@ -24,6 +24,7 @@ data <- data[data$Profession %in% c("Healthcare", "Artist"), ]
 data$Gender_Num <- ifelse(data$Gender == "F", 1, 0)
 
 
+
 # Chi-Square Test
 cat("\nChi-Square Test:\n")
 # One-way goodness of fit test (example with Gender)
