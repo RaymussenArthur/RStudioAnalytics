@@ -30,7 +30,7 @@ distribution_table <- data %>%
   mutate(Percentage = round((Count / sum(Count)) * 100, 2))
 print(distribution_table)
 
-# 3. Statistic descriptif 
+# Statistic descriptive 
 calc_stats <- function(x) {
   list(
     mean = mean(x, na.rm = TRUE),
