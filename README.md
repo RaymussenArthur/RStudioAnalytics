@@ -76,7 +76,7 @@ Key variables:
 1. **Clone this repository**
    ```bash
       git clone https://github.com/RaymussenArthur/RStudioAnalytics.git
-      cd customer-spending-analysis
+      cd RStudioAnalytics/UAS_ProbStat
 
 
   
